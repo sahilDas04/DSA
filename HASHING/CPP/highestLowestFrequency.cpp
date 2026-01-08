@@ -12,8 +12,8 @@ void highLow(vector<int> num){
     int maxFreq = 0, minFreq = n;
     int maxEle = 0, minEle = 0;
     for(auto it : mop){
-        int count = it.first;
-        int element = it.second;
+        int element = it.first;
+        int count = it.second;
 
         if(count < minFreq){
             minFreq = count;
